@@ -494,7 +494,7 @@ end)()
 local function PlaySound(ID)
 	if getgenv().RANXWARE_RayfieldUseGuiSounds then
 		local Sound = Instance.new("Sound", game)
-		Sound.Volume = 1
+		Sound.Volume = getgenv().RANXWARE_RayfieldSoundsVolume or 1
 		if type(ID) == "string" then
 			if tonumber(ID) then
 				Sound.SoundId = "rbxassetid://" .. ID
