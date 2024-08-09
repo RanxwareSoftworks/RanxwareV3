@@ -493,19 +493,22 @@ end)()
 
 local function PlaySound(ID)
 	if getgenv().RANXWARE_RayfieldUseGuiSounds then
-		local Sound = Instance.new("Sound", game.CoreGui)
-		Sound.Volume = getgenv().RANXWARE_RayfieldSoundsVolume or 1
-		if type(ID) == "string" then
-			if tonumber(ID) then
-				Sound.SoundId = "rbxassetid://" .. ID
-			else
-				Sound.SoundId = ID
+		task.spawn(function()
+			local Sound = Instance.new("Sound", game.CoreGui)
+			Sound.Volume = getgenv().RANXWARE_RayfieldSoundsVolume or 1
+			if type(ID) == "string" then
+				if tonumber(ID) then
+					Sound.SoundId = "rbxassetid://" .. ID
+				else
+					Sound.SoundId = ID
+				end
+			elseif type(ID) == "number" then
+				Sound.SoundId = "rbxassetid://" .. tostring(ID)
 			end
-		elseif type(ID) == "number" then
-			Sound.SoundId = "rbxassetid://" .. tostring(ID)
-		end
-		Sound:Play()
-		game:GetService("Debris"):AddItem(Sound, Sound.TimeLength)
+			repeat task.wait() until Sound.IsLoaded
+			Sound:Play()
+			game:GetService("Debris"):AddItem(Sound, Sound.TimeLength)
+		end)
 	end
 end
 
