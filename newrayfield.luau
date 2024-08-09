@@ -493,7 +493,7 @@ end)()
 
 local function PlaySound(ID)
 	if getgenv().RANXWARE_RayfieldUseGuiSounds then
-		local Sound = Instance.new("Sound", game)
+		local Sound = Instance.new("Sound", game.CoreGui)
 		Sound.Volume = getgenv().RANXWARE_RayfieldSoundsVolume or 1
 		if type(ID) == "string" then
 			if tonumber(ID) then
