@@ -1,6 +1,12 @@
 # RanxwareV3
 The official Ranxware V3 repository
 
+### Loadstring
+Use this line of code to execute the script:
+```luau
+loadstring(game:HttpGet("https://github.com/RanxwareSoftworks/RanxwareV3/raw/refs/heads/main/main.luau"))()
+```
+
 ### Upcoming Games
 (Some additions/removals may occur throughout development)
 
@@ -12,3 +18,13 @@ The official Ranxware V3 repository
 * [Blade Ball](https://roblox.com/games/13772394625)
 * [Baddies](https://roblox.com/games/11158043705)
 * [Fortblox](https://roblox.com/games/16605303570)
+
+### Supported Executors
+Executors with an asterisk (*) are unknown if the script is compatible.
+
+* Nihon
+* Wave*
+* AWP.gg*
+* Delta*
+* Codex*
+* Solara*
