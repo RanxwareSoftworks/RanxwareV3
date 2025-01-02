@@ -22,9 +22,9 @@ loadstring(game:HttpGet("https://github.com/RanxwareSoftworks/RanxwareV3/raw/ref
 ### Supported Executors
 Executors with an asterisk (*) are unknown if the script is compatible.
 
-* Nihon
-* Wave*
-* AWP.gg*
-* Delta*
-* Codex*
+* [Nihon](https://nihon.lol)
+* [Wave](https://getwave.gg)
+* [AWP.gg](https://discord.gg/awpgg)*
+* [Delta](https://discord.gg/deltaex)*
+* [Codex](https://codex.lol)*
 * Solara*
