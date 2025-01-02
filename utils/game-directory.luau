@@ -1,0 +1,3 @@
+-- This script is used to execute a specific exploit within multiple places that rely on the same game
+-- It is useful and easier to execute one file within multiple place ids, instead of adding each place id to one script
+-- You get the idea...
