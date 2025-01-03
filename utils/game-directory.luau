@@ -18,9 +18,11 @@ end
 
 local PlaceId = game.PlaceId
 
-for Source,Id in pairs(Scripts) do
-    if Id == PlaceId then
-         task.spawn(LoadScript, Source)
-         break
+for Source,Contents in pairs(Scripts) do
+    for _,Id in pairs(Contents) do
+        if Id == PlaceId then
+            task.spawn(LoadScript, Source)
+            break
+        end
     end
 end
