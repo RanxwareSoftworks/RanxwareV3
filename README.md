@@ -26,6 +26,7 @@ Executors with an asterisk (*) are unknown if the script is compatible.
 * [Wave](https://getwave.gg)
 * [AWP.gg](https://discord.gg/awpgg)*
 * [Nezur](https://nezur.io)*
+* [Argon](https://getargon.xyz)*
 * [Delta](https://deltaexploits.gg)*
 * [Codex](https://codex.lol)*
 * Solara*
