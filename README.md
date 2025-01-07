@@ -6,6 +6,7 @@ Use this line of code to execute the script:
 ```luau
 loadstring(game:HttpGet("https://github.com/RanxwareSoftworks/RanxwareV3/raw/refs/heads/main/main.luau"))()
 ```
+![soon](https://github.com/user-attachments/assets/670e3c6f-9b84-4196-9172-debd9a3680fe)
 
 ### Upcoming Games
 (Some additions/removals may occur throughout development)
