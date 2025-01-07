@@ -24,8 +24,8 @@ if not isfolder(`{FolderName}/{ConfigFolderName}`) then
 	makefolder(`{FolderName}/{ConfigFolderName}`)
 end
 
-if not isfile(`{FolderName}\{RanxwareSettings}{ConfigExt}`) then
-	writefile(`{FolderName}\{RanxwareSettings}{ConfigExt}`, "{}")
+if not isfile(`{FolderName}/{RanxwareSettings}{ConfigExt}`) then
+	writefile(`{FolderName}/{RanxwareSettings}{ConfigExt}`, "{}")
 end
 
 -- main loaders
