@@ -1,3 +1,10 @@
+local isfile = isfile or function(file)
+	local s,r = pcall(function()
+		return readfile(file)	
+	end)
+	return suc and res ~= nil and res ~= ""
+end
+
 local Directory = "https://github.com/RanxwareSoftworks/RanxwareV3/raw/refs/heads/main/"
 local FolderName = "RanxwareV3"
 local ConfigFolderName = "Configs"
