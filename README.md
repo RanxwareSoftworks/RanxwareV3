@@ -3,6 +3,8 @@
 # RanxwareV3
 The official Ranxware V3 repository
 
+(To prevent devs from making anti-cheats to their game, almost all of the scripts will be obfuscated!)
+
 ### Loadstring
 Use this line of code to execute the script:
 ```luau
