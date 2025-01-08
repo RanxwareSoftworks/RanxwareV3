@@ -35,4 +35,4 @@ local function loadScript(file)
 end
 
 loadScript("utils/env.luau")
-loadScript("util/sgame-directory.luau")
+loadScript("utils/game-directory.luau")
